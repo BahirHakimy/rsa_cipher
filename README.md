@@ -1,8 +1,8 @@
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 RSA CIPHER <a name="about-project"></a>
+# 📖 RSA Encryptor <a name="about-project"></a>
 
-**RSA CIPHER** A minimal implemetation of asymetric encryption operations using [RSA](<https://en.wikipedia.org/wiki/RSA_(cryptosystem)>)
+**RSA Encryptor** A minimal implemetation of asymetric encryption operations using [RSA](<https://en.wikipedia.org/wiki/RSA_(cryptosystem)>)
 
 Functionalities include:
 
@@ -22,7 +22,7 @@ In order to run this project you need to:
 Install the package via pip
 
 ```bash
-pip install rsa_cipher
+pip install rsa_encryptor
 ```
 
 ### Usage
@@ -30,7 +30,7 @@ pip install rsa_cipher
 **Encryption**
 
 ```python
-from rsa_cipher import Encryption
+from rsa_encryptor import Encryption
 
 # Create an object
 encryptor = Encryption()
@@ -49,7 +49,7 @@ encryptor.encrypt_file('path_to_file')
 **Decryption**
 
 ```python
-from rsa_cipher import Encryption
+from rsa_encryptor import Encryption
 
 # Create an object
 encryptor = Encryption()
@@ -65,7 +65,7 @@ encryptor.decrypt_file('path_to_encrypted_file')
 **Signature**
 
 ```python
-from rsa_cipher import Signature
+from rsa_encryptor import Signature
 
 # Create an object
 signer = Signature()
@@ -81,7 +81,7 @@ signer.sign('path_to_file')
 **Signature Verfication**
 
 ```python
-from rsa_cipher import Signature
+from rsa_encryptor import Signature
 
 # Create an object
 signer = Signature()
@@ -100,9 +100,9 @@ signer.verify('path_to_file','path_to_signature')
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## Authors <a name="authors"></a>
 
-👤 **Bahir Hakimi**
+**Bahir Hakimi**
 
 - <a href='https://www.linkedin.com/in/bahir-hakimi/' target="_blank"><img alt='LinkedIn' src='https://img.shields.io/badge/Bahir_Hakimi-100000?style=flat&logo=LinkedIn&logoColor=white&labelColor=0099FF&color=0099FF'/></a>
 - <a href='mailto:bahirhakimy2020@gmail.com' target="_blank"><img alt='Gmail' src='https://img.shields.io/badge/Bahir_Hakimi-100000?style=flat&logo=Gmail&logoColor=FFFFFF&labelColor=FF2C10&color=FF2C10'/></a>
@@ -112,7 +112,7 @@ signer.verify('path_to_file','path_to_signature')
 
 <!-- Contributing -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -122,7 +122,7 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- Show your support -->
 
-## ⭐️ Show your support <a name="support"></a>
+## Show your support <a name="support"></a>
 
 If you like this project leave a start for it.
 
@@ -130,7 +130,7 @@ If you like this project leave a start for it.
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## Acknowledgments <a name="acknowledgements"></a>
 
 The package functionalities are based on [rsa](https://pypi.org/project/rsa/) by [sybrenstuvel](https://pypi.org/user/sybrenstuvel/).
 
@@ -138,7 +138,7 @@ The package functionalities are based on [rsa](https://pypi.org/project/rsa/) by
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
